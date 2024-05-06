@@ -1,0 +1,30 @@
+{
+  "name": "csv-data-visualizer",
+  "version": "1.0.0",
+  "description": "Fullstack app that allows the user to upload a csv file to visualize and search the data inside of it. It has a simple and modern design for the frontend and an RESTful API for the backend, both combined in this monorepo.",
+  "scripts": {
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm --filter \"**\" dev"
+  },
+  "keywords": [
+    "backend",
+    "csv",
+    "data",
+    "data-visualizer",
+    "csv-visualizer"
+  ],
+  "author": "Sara Rioseco <sara.rioseco@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1"
+  }
+}
